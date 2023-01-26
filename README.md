@@ -17,5 +17,6 @@ samples, guidance on mobile development, and a full API reference.
 
 
 Run ```flutter pub add hexcolor```
-*import 'package:hexcolor/hexcolor.dart';*
+
+Then ```import 'package:hexcolor/hexcolor.dart';```
                   
