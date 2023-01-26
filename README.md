@@ -15,12 +15,5 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-import 'package:hexcolor/hexcolor.dart';
-                    Text(
-                      'Running on: $_platformVersion\n',
-                    style: TextStyle(color: HexColor("#f2f2f2")),
-                  ),
-                  Text(
-                    "Hex From Material  $textColor",
-                    style: TextStyle(color: ColorToHex(Colors.teal)),
-                  ),
+*import 'package:hexcolor/hexcolor.dart';*
+                  
