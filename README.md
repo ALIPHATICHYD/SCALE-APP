@@ -18,5 +18,8 @@ samples, guidance on mobile development, and a full API reference.
 
 Run ```flutter pub add hexcolor```
 
+Then add this to the dependencies in your pubspec.yaml file ```
+  hexcolor: ^3.0.1```
+
 Then ```import 'package:hexcolor/hexcolor.dart';```
                   
