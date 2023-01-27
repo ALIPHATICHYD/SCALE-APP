@@ -48,12 +48,18 @@ class _HomeScreen extends State<HomeScreen> {
 
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(
-                    
+                    border: InputBorder.none,
+                    hintText: 'Height',
+                    hintStyle: TextStyle(
+                      color: Colors.white.withOpacity(.8),
+                      fontSize: 42,
+                      fontWeight: FontWeight.w300,
+                    ),
                   ),
                    
                   ),
                 ),
-              ),
+                
             ]
           ),
         ],
