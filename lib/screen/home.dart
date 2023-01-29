@@ -12,3 +12,24 @@ class HomeScreen extends StatefulWidget {
 _HomeScreen createState() => _HomeScreen();
 }
 
+
+class _HomeScreen extends State<HomeScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          'BMI',
+          style: TextStyle(color: accentHexColor, fontWeight: FontWeight.w300),
+        ),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        centerTitle: true,
+      ),
+      backgroundColor: mainHexColor,
+      body: SingleChildScrollView(
+          child: Column(
+        children: [
+          SizedBox(
+            height: 20,
+          )
