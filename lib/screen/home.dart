@@ -62,7 +62,7 @@ class _HomeScreen extends State<HomeScreen> {
                 
             ]
           ),
-          SizedBox(height: 30,),
+         SizedBox(height: 30,),
           Container(
             child: Text("Calculate", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: accentHexColor)),
           ),
@@ -74,6 +74,19 @@ class _HomeScreen extends State<HomeScreen> {
           Container(
             child: Text("Normal weight", style: TextStyle(fontSize: 32, fontWeight: FontWeight.w400, color: accentHexColor)),
           ),
+          SizedBox(height: 10,),
+          LeftBar(barWidth:40),
+          SizedBox(height: 20,),
+          LeftBar(barWidth:70),
+          SizedBox(height: 20,),
+          LeftBar(barWidth:40),
+          SizedBox(height: 20,),
+          RightBar(barWidth:70),
+          SizedBox(height: 50,),
+          RightBar(barWidth:70),
+
+
+          
 
         ],
       )),
