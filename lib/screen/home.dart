@@ -33,3 +33,32 @@ class _HomeScreen extends State<HomeScreen> {
           SizedBox(
             height: 20,
           )
+
+          Row(
+            mainAxisAlignment:MainAxisAlignment.spaceEvenly,
+            children: [
+              Container(
+                width: 130,
+                child: TextField(
+                  style: TextStyle(
+                    color: accentHexColor,
+                    fontSize: 42,
+                    fontWeight: FontWeight.w300,
+                  ),
+
+                  keyboardType: TextInputType.number,
+                  decoration: InputDecoration(
+                    border: InputBorder.none,
+                    hintText: 'Height',
+                    hintStyle: TextStyle(
+                      color: Colors.white.withOpacity(.8),
+                      fontSize: 42,
+                      fontWeight: FontWeight.w300,
+                    ),
+                  ),
+                   
+                  ),
+                ),
+                
+            ]
+          ),
