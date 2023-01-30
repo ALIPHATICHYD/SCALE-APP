@@ -68,3 +68,28 @@ class _HomeScreen extends State<HomeScreen> {
                 
             ]
           ),
+          const SizedBox(height: 30,),
+          Text("Calculate", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: accentHexColor)),
+          const SizedBox(height: 50,),
+          Text("10", style: TextStyle(fontSize: 90, color: accentHexColor)),
+          const SizedBox(height: 30,),
+          Text("Normal weight", style: TextStyle(fontSize: 32, fontWeight: FontWeight.w400, color: accentHexColor)),
+          const SizedBox(height: 10,),
+          LeftBar(barWidth:40),
+          const SizedBox(height: 20,),
+          LeftBar(barWidth:70),
+          const SizedBox(height: 20,),
+          LeftBar(barWidth:40),
+          const SizedBox(height: 20,),
+          RightBar(barWidth:70),
+          const SizedBox(height: 50,),
+          RightBar(barWidth:70),
+
+
+          
+
+        ],
+      )),
+    );
+  }
+}
